@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --button-border: #9ca3af;
+  --session-background: #f5f3ff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.conatiner {
+  background-color: var(--session-background);
+  margin-top: 1rem;
+}
+
+.center-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem 1rem;
+}
+
+section a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--button-border);
+  color: black;
+  border-radius: 2rem;
+  display: inline-block;
+}
